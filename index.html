@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Snakes & Ladders</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon"  href="images/favicon.ico">
+</head>
+<body>
+  <div class="header">
+    <h1>Welcome to Snakes & Ladders Game <img class="snake1" src="images/img9.gif"></h1>
+
+  </div>
+
+  <div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><h2>Select the number of players <img class="snake1" src="images/img7.gif"></h2></li>
+      <li><input type="radio" name="player" value="player1" checked>One player</li>
+      <li><input type="radio" name="player" value="player2">Two players</li>
+      <li><input type="radio" name="player" value="player3">Three players</li> 
+      <li><button onclick="myFunction()">Submit</button></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h2>Possible dices are;</h2>
+    <table>
+    <tr>
+     <td><p class="intro"><img class="img" src="images/img1.png"></p></td>
+     <td><p class="intro"><img class="img" src="images/img2.png"></p></td>
+     <td><p class="intro"><img class="img" src="images/img3.png"></p></td>
+     <td><p class="intro"><img class="img" src="images/img4.png"></p></td>
+     <td><p class="intro"><img class="img" src="images/img5.png"></p></td>
+     <td><p class="intro"><img class="img" src="images/img6.png"></p></td>
+     </tr>
+      </table> 
+
+    <!-- Player 1 -->
+      <div id="player1">
+         <h2 id="player1Name">Player 1</h2>
+        <input type="text" id="player1Input" placeholder="Enter Player 1's Name">
+        <button onclick="myName()">Submit Name</button>
+        <p class="intro1">Roll the dice, your score is <br><span id="die"></span></p>
+       <button onclick="rollDice()"><span>Roll!</span></button>
+        <p>Your current total score is:</p>
+        <p id="scorevalue"></p>
+      </div>
+      
+
+     <!-- Player 2 -->
+     <div id="player2" style="display: none;">
+         <h2 id="player2Name">Player 2</h2>
+         <input type="text" id="player2Input" placeholder="Enter Player 2's Name">
+         <button onclick="nameOne()">Submit Name</button>
+         <p class="intro1">Roll the dice, your score is <br><span id="die1"></span></p>
+         <button onclick="diceTwo()"><span>Roll!</span></button>
+         <p>Your current total score is:</p>
+         <p id="scoreone"></p>
+         </div>
+      
+      <!-- Player 3 -->
+        <div id="player3" style="display: none;">
+            <h2 id="player3Name">Player 3</h2>
+            <input type="text" id="player3Input" placeholder="Enter Player 3's Name">
+            <button onclick="nameTwo()">Submit Name</button>
+            <p class="intro1">Roll the dice, your score is <br><span id="die2"></span></p>
+            <button onclick="diceThree()"><span>Roll!</span></button>
+           <p>Your current total score is:</p>
+           <p id="scoretwo"></p>
+           </div>
+   </div>
+
+       <div class="col-12 col-s-12">
+        <div class="aside">
+          <img class="route" src="images/img.jpg">
+          </div>
+          </div>
+       </div>
+
+<div class="footer">
+  <img class="snake1" src="images/img8.gif">
+	    <h2>Snakes & Ladders </h2>
+	     <p>Copyright © 2023 All rights reserved | AtupakisyeStephen</p>
+</div>
+
+   <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

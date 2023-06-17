@@ -1,0 +1,28 @@
+HOW TO PLAY THE SNAKES & LADDERS GAME
+*********************************************
+Step 1: Select the number of players,the game supports a maximum of 3 players 
+        playing simultaneously. By default One player is selected,if you want two
+        players make sure the two players checkbox is selected then press submit,
+        follow the same procedure if you want three players.
+
+Step 2: After selecting the number of players,continue to write your name in the
+        input box after which press the submit button(Writing your name is optional).
+        Press the roll! button to roll the dice below it your total score will be 
+        displayed.Follow the same procedures for two,or three players.
+
+Note:
+-possible dices scores are:1,2,3,4,5,6 only
+-The first player to obtain a score of 69 wins
+-After the first player obtains a score of 69 the game is over,please refresh the
+webpage to start afresh the game!
+-Any player who obtains a score of 68,he/she must start Afresh the game!!
+-Each time you roll the dice please check the snakes and ladders game image it
+should be above the footer(Copyright © 2023 All rights reserved | AtupakisyeStephen)
+because the total score is affected by this image.For example:
+     
+  Player 1 rolls the dice
+  he gets value 3 on his dice,then this counts as three steps in the snakes and ladders game image,
+  as you can see from the diagram there is a ladder which connects number three and 10.Therefore
+  the final score that will be displayed for player 1 will be 10.
+
+In the same manner the game is played until the winner is obtained. 
